@@ -9,7 +9,7 @@ export default function ProductScraper() {
   const [isLoading, setIsLoading] = useState(false);
   const [sortOrder, setSortOrder] = useState("asc");
 
-  axios.defaults.withCredentials = true
+  axios.defaults.withCredentials = true;
 
   // Parse the URLs and handle empty input
   const urlArray = urls
