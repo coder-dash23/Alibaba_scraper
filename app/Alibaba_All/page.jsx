@@ -32,7 +32,7 @@ export default function ProductScraper() {
 
     try {
       const { data } = await axios.post(
-        "https://alibaba-scraper-backend.vercel.app/scrapeAlibabaAll",
+        "https://alibaba-scraper-backend.onrender.com/scrapeAlibabaSingle",
         {
           urls: urlArray,
         }
