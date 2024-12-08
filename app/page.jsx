@@ -26,7 +26,7 @@ export default function ProductScraper() {
       }
 
       const { data } = await axios.post(
-        "http://localhost:5000/scrapeAlibabaAll",
+        "https://alibaba-scraper-backend.vercel.app/scrapeAlibabaAll",
         {
           urls: urlArray,
         }
